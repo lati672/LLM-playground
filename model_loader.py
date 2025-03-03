@@ -8,7 +8,7 @@ cache_dir = "/scratch/mb26/bp0395/cache"
 os.makedirs(cache_dir, exist_ok=True)
 
 # Model and tokenizer name
-model_name = "meta-llama/Llama-3B-hf"
+model_name = "meta-llama/Llama-3.2-3B-Instruct"
 
 # Create directories to save the model and tokenizer
 model_save_dir = "/scratch/mb26/bp0395/llama_3b"
